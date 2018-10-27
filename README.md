@@ -15,4 +15,4 @@ Usuario ROOT: root
 
 Contraseña ROOT: root
 
--- Clonar, entrar a docker-php7.0 y lanzar 'docker-compose up'
+### Clonar, entrar a docker-php7.0 y lanzar 'docker-compose up'
