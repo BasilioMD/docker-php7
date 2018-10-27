@@ -1,4 +1,4 @@
-# docker-php7
+# docker-php7.0
 
 ## Creación de multi-contenedores para PHP 7.0
 
