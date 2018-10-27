@@ -11,7 +11,7 @@
 </head>
 <body>
 	<div class="container">
-    	<?php echo "<h1><u>Datos</u></h1>"; 
+    	<?php echo '<h1><u>Datos</u></h1>'; 
 	
 	// Conectando, seleccionando la base de datos
 	$link = mysqli_connect( 'bbdd7' , 'root' , 'root' ) 
@@ -20,7 +20,7 @@
 
 	// Realizar una query MySQL
 	$query = 'SELECT * FROM Personas';
-	$result = mysqli_query( $link, $query ) or die ( 'Consulta fallida: ' . mysqli_error()  );
+	$result = mysqli_query( $link, $query ) or die ( 'Consulta fallida: ' . mysqli_error() );
 
 	// Imprimir los results en HTML
 	echo '<table class="table table-striped">';
@@ -28,10 +28,8 @@
 	while ( $line = mysqli_fetch_array( $result ) ){
 		echo '<tr>';
 		echo '<td><a href="#"><span class="glyphicon glyphicon-search"></span></a></td>';
-	    foreach ( $line as $col_value ) {
-		echo "<td>$col_value</td>";
-	    }
-	    echo "</tr>";
+		echo '<td>' . $line['id'] . '</td><td>' . $line['nombre'] . '</td>';
+		echo '</tr>';
 	}
 	echo '</table>';
 
