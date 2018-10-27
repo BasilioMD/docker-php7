@@ -10,7 +10,9 @@ Lanza tres contenedores para los servicios:
 
 Llevan la extensión 'mysqli' para la versión 7 de Php.
 
+
 Usuario ROOT: root
+
 Contraseña ROOT: root
 
 * Clonar, entrar a docker-php7.0 y lanzar 'docker-compose up'
