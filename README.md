@@ -8,7 +8,7 @@ Lanza tres contenedores para los servicios:
   - bbdd7 ( contiene base datos )
   - miadmin7 ( contiene phpmyadmin )
 
-Llevan la extensión 'mysqli' para la versión 7 de Php.
+Llevan la extensión 'mysqli' para la versión 7.0 de Php.
 
 
 Usuario ROOT: root
